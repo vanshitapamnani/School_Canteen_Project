@@ -50,7 +50,7 @@ function StudentDetail() {
               orders.map((order, i) => (
                 <div key={i} className="item">
                   <div className="order-info">
-                    <br> {order.snack}</br>
+                    {order.snack}
                     <span> {order.quantity} </span>
                   </div>
                   <div className="price">₹{order.payable}</div>

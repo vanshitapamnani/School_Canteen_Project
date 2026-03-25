@@ -83,6 +83,21 @@
         }
       ],
       "id": "-5nMYX2OfUE"
+    },
+    {
+      "studentName": "tomy",
+      "referralCode": "REF2596",
+      "totalSpent": 120,
+      "orders": [
+        {
+          "snack": "Pasta",
+          "snackId": "2",
+          "studentId": "a1-YoelBReI",
+          "quantity": 3,
+          "payable": 120
+        }
+      ],
+      "id": "a1-YoelBReI"
     }
   ],
   "orders": [
@@ -207,6 +222,14 @@
       "quantity": 4,
       "payable": 80,
       "id": "HFr3VSZiTC4"
+    },
+    {
+      "snack": "Pasta",
+      "snackId": "2",
+      "studentId": "a1-YoelBReI",
+      "quantity": 3,
+      "payable": 120,
+      "id": "OSjw_SCaQFY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
