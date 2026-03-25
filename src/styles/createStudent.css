@@ -1,0 +1,72 @@
+.student-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 2rem;
+  background-color: var(--white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid var(--primary);
+}
+.student-container h3 {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.student-form input {
+  padding: 12px 15px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.student-form input:focus {
+  border-color: var(--primary);
+}
+
+.submit-btn {
+  padding: 12px;
+  background-color: var(--secondary);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #43a047;
+  transform: translateY(-1px);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+.error-message {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.message {
+  color: var(--secondary);
+  background-color: #e8f5e9;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-align: center;
+}

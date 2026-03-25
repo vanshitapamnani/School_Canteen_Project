@@ -1,0 +1,49 @@
+.snack-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 16px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--tertiary);
+  gap: 10px;
+}
+
+.snack-card:hover {
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.snack-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.snack-price {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.snack-orders {
+  font-size: 14px;
+  color: #181616;
+}
+
+.snack-card button {
+  margin-top: auto;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--secondary);
+  color: var(--white);
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.snack-card button:hover {
+  background-color: #43a047;
+}

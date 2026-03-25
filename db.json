@@ -1,0 +1,213 @@
+{
+  "snacks": [
+    {
+      "id": "1",
+      "name": "Maggie",
+      "price": 30,
+      "ordersCount": 5
+    },
+    {
+      "id": "2",
+      "name": "Pasta",
+      "price": 40,
+      "ordersCount": 5
+    },
+    {
+      "id": "3",
+      "name": "Canned Juice",
+      "price": 30,
+      "ordersCount": 5
+    },
+    {
+      "id": "4",
+      "name": "Sandwich",
+      "price": 20,
+      "ordersCount": 5
+    }
+  ],
+  "students": [
+    {
+      "studentName": "john ",
+      "referralCode": "REF9531",
+      "totalSpent": 0,
+      "orders": [],
+      "id": "BJxIJPNMdjA"
+    },
+    {
+      "studentName": "john",
+      "referralCode": "REF8584",
+      "totalSpent": 0,
+      "orders": [],
+      "id": "BH-9_9kWXmI"
+    },
+    {
+      "studentName": "Jack",
+      "referralCode": "REF5674",
+      "totalSpent": 200,
+      "orders": [
+        {
+          "snack": "Pasta",
+          "snackId": "2",
+          "studentId": "PXAGaaAxSvk",
+          "quantity": 5,
+          "payable": 200
+        }
+      ],
+      "id": "PXAGaaAxSvk"
+    },
+    {
+      "studentName": "Test",
+      "referralCode": "REF6094",
+      "totalSpent": 0,
+      "orders": [],
+      "id": "BssIN3MvURw"
+    },
+    {
+      "studentName": "Tom",
+      "referralCode": "REF4393",
+      "totalSpent": 0,
+      "orders": [],
+      "id": "9aXjC0xUNZw"
+    },
+    {
+      "studentName": "final testing",
+      "referralCode": "REF3072",
+      "totalSpent": 80,
+      "orders": [
+        {
+          "snack": "Sandwich",
+          "snackId": "4",
+          "studentId": "-5nMYX2OfUE",
+          "quantity": 4,
+          "payable": 80
+        }
+      ],
+      "id": "-5nMYX2OfUE"
+    }
+  ],
+  "orders": [
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "xaJTuS5F0Vo"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "8J5OFmBFuaw"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "C3bhnYibx7s"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "QIoeNp8Y1-c"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "YTUaJISZTmc"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "0ri0w6eBGGk"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "3F55FktPO4I"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "J_eb9tJcH1E"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "Mm53OcOY7n8"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "l1D_cb3KRZc"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "aY2xuSsqp9Q"
+    },
+    {
+      "snackId": "1",
+      "studentId": "",
+      "quantity": 1,
+      "total": 30,
+      "id": "FRS5Dk-MuIU"
+    },
+    {
+      "snackId": "2",
+      "studentId": "PXAGaaAxSvk",
+      "quantity": 1,
+      "total": 40,
+      "id": "WLudul_WRWY"
+    },
+    {
+      "snackId": "3",
+      "studentId": "BH-9_9kWXmI",
+      "quantity": 3,
+      "total": 90,
+      "id": "X2n2Xz4Mb9U"
+    },
+    {
+      "snack": "Pasta",
+      "snackId": "2",
+      "studentId": "BssIN3MvURw",
+      "quantity": 5,
+      "payable": 200,
+      "id": "IDD6QagDWsU"
+    },
+    {
+      "snack": "Pasta",
+      "snackId": "2",
+      "studentId": "PXAGaaAxSvk",
+      "quantity": 5,
+      "payable": 200,
+      "id": "xIVroIcniAU"
+    },
+    {
+      "snack": "Sandwich",
+      "snackId": "4",
+      "studentId": "-5nMYX2OfUE",
+      "quantity": 4,
+      "payable": 80,
+      "id": "HFr3VSZiTC4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,105 @@
+.detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: var(--background);
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  border: 2px solid #666;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.detail-card h2 {
+  color: var(--primary);
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  text-align: left;
+}
+.order-sec {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.order-sec h3 {
+  border-bottom: 2px solid var(--tertiary);
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: var(--primary);
+}
+.order-info b {
+  display: block;
+  color: var(--text-dark);
+}
+.order-info span {
+  font-size: 0.85rem;
+  color: #777;
+}
+.price {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.ref-code {
+  width: 100%;
+  max-width: 500px;
+  color: #666;
+  font-family: monospace;
+  background: #eee;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0 20px 0;
+  display: block;
+}
+.total-amt {
+  background-color: var(--secondary);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.order-btn {
+  margin-top: 30px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.order-btn:hover {
+  transform: scale(1.05);
+}
